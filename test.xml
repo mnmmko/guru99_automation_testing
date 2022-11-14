@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" parallel="none" thread-count="1">
+    <parameter name="browser" value="chrome"/>
+    <test name="Login test"  verbose="0">
+
+        <classes>
+
+            <class name="test.base_test"></class>
+            <class name="test.Valid_Login_test"/>
+            <class name="test.Invalid_Login_test"/>
+
+        </classes>
+
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
